@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tempText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="24dp"
+        android:text="온도"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/node1" />
+
+    <TextView
+        android:id="@+id/soilText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="16dp"
+        android:text="토양"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/humidText1"
+        app:layout_constraintTop_toBottomOf="@+id/humidText1" />
+
+    <TextView
+        android:id="@+id/lightText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="16dp"
+        android:text="조도"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/soilText1"
+        app:layout_constraintTop_toBottomOf="@+id/soilText1" />
+
+    <TextView
+        android:id="@+id/temp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tempText1"
+        app:layout_constraintStart_toEndOf="@+id/tempText1" />
+
+    <TextView
+        android:id="@+id/humid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintBaseline_toBaselineOf="@+id/humidText1"
+        app:layout_constraintStart_toEndOf="@+id/humidText1" />
+
+    <TextView
+        android:id="@+id/soil2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintBaseline_toBaselineOf="@+id/soilText1"
+        app:layout_constraintStart_toEndOf="@+id/soilText1" />
+
+    <TextView
+        android:id="@+id/light2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lightText1"
+        app:layout_constraintStart_toEndOf="@+id/lightText1" />
+
+    <TextView
+        android:id="@+id/humidText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="16dp"
+        android:text="습도"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/tempText1"
+        app:layout_constraintTop_toBottomOf="@+id/tempText1" />
+
+    <TextView
+        android:id="@+id/tempText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        android:text="온도"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/node1" />
+
+    <TextView
+        android:id="@+id/humidText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="습도"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/tempText1"
+        app:layout_constraintTop_toBottomOf="@+id/tempText1" />
+
+    <TextView
+        android:id="@+id/soilText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="토양"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/humidText1"
+        app:layout_constraintTop_toBottomOf="@+id/humidText1" />
+
+    <TextView
+        android:id="@+id/lightText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="조도"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/soilText1"
+        app:layout_constraintTop_toBottomOf="@+id/soilText1" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tempText1"
+        app:layout_constraintStart_toEndOf="@+id/tempText1" />
+
+    <TextView
+        android:id="@+id/humid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintBaseline_toBaselineOf="@+id/humidText1"
+        app:layout_constraintStart_toEndOf="@+id/humidText1" />
+
+    <TextView
+        android:id="@+id/soil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintBaseline_toBaselineOf="@+id/soilText1"
+        app:layout_constraintStart_toEndOf="@+id/soilText1" />
+
+    <TextView
+        android:id="@+id/light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lightText1"
+        app:layout_constraintStart_toEndOf="@+id/lightText1" />
+
+    <TextView
+        android:id="@+id/node1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="104dp"
+        android:text="node 1"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/node2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginEnd="68dp"
+        android:text="node 2"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/node1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/node1" />
+
+    <TextView
+        android:id="@+id/proTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Smart GreenHouse"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAN 작동 조건"
+        android:textColor="@color/black"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fanEdit"
+        app:layout_constraintEnd_toStartOf="@+id/fanEdit"
+        app:layout_constraintHorizontal_bias="0.747"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/fanEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="204dp"
+        android:ems="3"
+        android:inputType="textPersonName"
+        android:text="30"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lightText2" />
+
+    <EditText
+        android:id="@+id/soilEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="204dp"
+        android:ems="3"
+        android:inputType="textPersonName"
+        android:text="30"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fanEdit" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pump 작동 조건"
+        android:textColor="@color/black"
+        app:layout_constraintBaseline_toBaselineOf="@+id/soilEdit"
+        app:layout_constraintEnd_toStartOf="@+id/soilEdit"
+        app:layout_constraintHorizontal_bias="0.762"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="적용"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/light2"
+        app:layout_constraintVertical_bias="0.148" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(온도)"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fanEdit"
+        app:layout_constraintStart_toEndOf="@+id/fanEdit" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(토양습도)"
+        app:layout_constraintBaseline_toBaselineOf="@+id/soilEdit"
+        app:layout_constraintStart_toEndOf="@+id/soilEdit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

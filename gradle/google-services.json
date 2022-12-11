@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "243270935828",
+    "project_id": "iot-project-acf10",
+    "storage_bucket": "iot-project-acf10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243270935828:android:bbd1468d683b03ea5c8e01",
+        "android_client_info": {
+          "package_name": "com.IOT.smartfarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243270935828-5a055vfm5qumk81nkq7arqaqnouan0jj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.IOT.smartfarm",
+            "certificate_hash": "83ddd4d590396bb8acf0156a15eeda33cc2aa715"
+          }
+        },
+        {
+          "client_id": "243270935828-c5srou5or3rplpakspjj90rodlqfp4fm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXkh1nVmOZ9rsVVZmcFGIFxTUJ7CEfRq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243270935828-c5srou5or3rplpakspjj90rodlqfp4fm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
